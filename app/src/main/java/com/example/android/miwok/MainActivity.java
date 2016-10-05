@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
         TextView family = (TextView) findViewById(R.id.family);
         TextView phrases = (TextView) findViewById(R.id.phrases);
 
+        // Numbers activity
         numbers.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
